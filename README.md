@@ -10,20 +10,17 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
 ## Ethan's Cloud Journey
 
-[✍️ Introduce yourself]
+Cloud Solutions Architect. Full Stack Web Developer. Cloud Enthusiast. Gym rat. I'm a driven, detail oriented, Cloud Solution Architect based in Pittsburgh, PA. Experienced in both networking and software development cycles where I enjoy designing scalable, flexible and cost effective solutions with a focus on end user experience and business objectives.
 
-[✍️ Tell us why you started this challenge]
+I want to build a wide range of practical cloud portfolios and share what I learn with the communities.
 
-[✍️ Tell us where you want to be at the end of the challenge]
+By the end of my 100 days with the cloud, I would like to complete my portfolio and complete my AWS Certified Solutions Architect - Professional certification.
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [@thedevspatial](https://twitter.com/thedevspatial)
+- [LinkedIn](https://www.linkedin.com/in/ethan-he/)
 
 ## Stepping out the door
 
