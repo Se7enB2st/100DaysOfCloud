@@ -19,8 +19,10 @@ I want to build a wide range of practical cloud portfolios and share what I lear
 
 By the end of my 100 days with the cloud, I would like to complete my portfolio and complete my AWS Certified Solutions Architect - Professional certification.
 
+- [blog] (https://devspatial.com/blog) 
 - [@thedevspatial](https://twitter.com/thedevspatial)
 - [LinkedIn](https://www.linkedin.com/in/ethan-he/)
+- [YouTube](https://www.youtube.com/channel/UCtd7qlxWiGHMBkf1YEpootw)
 
 ## Stepping out the door
 
