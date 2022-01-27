@@ -1,52 +1,43 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# Deploy a Lambda serverless function on AWS
+# Deploy a simple hello world Lambda serverless function on AWS
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+AWS Lambda is a serverless, event-driven compute service that allows you to run code for almost any type of application or backend service without the need for server provisioning or management.
+
+This is super useful for developers, as they can focus on the development of product instead of manual task such as managing server.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Have a AWS Account
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Cost
+Free - The AWS Lambda free tier includes one million free requests per month and 400,000 GB-seconds of compute time per month.
 
-## Cloud Research
+## Difficulty
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Beginner
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Create a Lambda function using the console
 
-### Step 1 — Summary of Step
+### Step 1 - Go to the Lambda console
 
-![Screenshot](https://via.placeholder.com/500x300)
+Create a function by going to the lambda console.
 
-### Step 1 — Summary of Step
+### Step 2 — Add function code
 
-![Screenshot](https://via.placeholder.com/500x300)
+To create a function code, you have the following options: author from scratch, use a blueprint, container image and browse serverless app repository.
 
-### Step 3 — Summary of Step
+### Step 3 — Grant permission
 
-![Screenshot](https://via.placeholder.com/500x300)
+Create an IAM role to grant the least privileged access to the lambda function.
 
-## ☁️ Cloud Outcome
+### Step 4 - Optional settings
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+The last step is optional, where you can go into more advanced settings by adding triggers and destination to the function. This will determine where the lambda call can come from and where the results will be sent and processed.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+Deploy a Lambda function using CDK and CLI
