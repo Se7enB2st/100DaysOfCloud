@@ -39,3 +39,8 @@ Update your domain's DNS records to point your website's CNAME to the domain nam
 ## Step 5
 
 Wait for your DNS changes to propagate and the previous DNS entries to expire
+
+## Reference Materials
+
+* [CloudFront Static Website](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/)
+* [Hosting a static website using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
