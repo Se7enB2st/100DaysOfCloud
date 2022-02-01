@@ -1,52 +1,41 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Host a simple static webpage with AWS S3 and CloudFront
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases.
+
+Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users. CloudFront delivers your content through a worldwide network of data centers called edge locations. When a user requests content that you're serving with CloudFront, the request is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Have a AWS Account
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Cost
+Free - The AWS S3 and CloudFront free tier would be sufficient.
 
-## Cloud Research
+## Difficulty
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Intermediate
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 1
 
-### Step 1 — Summary of Step
+Create a bucket in the Amazon S3 console and upload your website files.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 
 
-### Step 1 — Summary of Step
+Create a web distribution in CloudFront.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 3 
 
-### Step 3 — Summary of Step
+It is highly recommended that you use SSL (HTTPS) for your website. Select Custom SSL certificate to use a custom domain with HTTPS. To obtain a new certificate, select the Request certificate option. If you do not have a custom domain, you can still use HTTPS with the cloudfront.net domain for your distribution.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 4 
 
-## ☁️ Cloud Outcome
+Update your domain's DNS records to point your website's CNAME to the domain name of your CloudFront distribution.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+## Step 5
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+Wait for your DNS changes to propagate and the previous DNS entries to expire
