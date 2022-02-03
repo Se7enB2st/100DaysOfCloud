@@ -26,10 +26,10 @@ By the end of my 100 days with the cloud, I would like to complete my portfolio 
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [](Journey/004/Readme.md)
+- [ ] ☁️ 1 > [Start of a cloud blog](Journey/001/Readme.md)
+- [ ] ☁️ 2 > [Create a AWS Billing Alert](Journey/002/Readme.md)
+- [ ] ☁️ 3 > [Deploy a simple hello world Lambda serverless function on AWS](Journey/003/Readme.md)
+- [ ] ☁️ 4 > [Host a simple static webpage with AWS S3 and CloudFront](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
