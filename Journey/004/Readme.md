@@ -36,7 +36,7 @@ It is highly recommended that you use SSL (HTTPS) for your website. Select Custo
 
 Update your domain's DNS records to point your website's CNAME to the domain name of your CloudFront distribution.
 
-## Step 5
+### Step 5
 
 Wait for your DNS changes to propagate and the previous DNS entries to expire
 
