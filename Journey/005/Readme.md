@@ -1,52 +1,48 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Create a simple serverless API on AWS
 
-# New post title here
+## Adjectives
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+- Create an AWS Lambda with the language of your choice, the purpose of this Lambda is to respond with a 'Hello Serverless World!' message.
+- Create an API Gateway endpoint and connect it to the AWS Lambda function created above and deploy it as an API that can be consumed from POSTMAN.
+- Secure the API with an API Key
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Have a AWS Account
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Cost
+Free - The AWS S3 and CloudFront free tier would be sufficient.
 
-## Cloud Research
+## Difficulty
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Intermediate
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 1
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### Step 2 
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 3 
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
+### Step 4 
 
-✍️ Describe what you think you think you want to do next.
 
-## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+## Step 5
 
-[link](link)
+
+
+## Reference Materials
+
+- [AWS Lambda- Getting Started](https://aws.amazon.com/lambda/getting-started/)
+- [API Gateway Getting Started](https://aws.amazon.com/api-gateway/getting-started/)
+- [Connecting AWS Lambda and API Gateway](https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-tutorial.html)
+- [Securing the API](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html)
