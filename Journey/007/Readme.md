@@ -1,52 +1,52 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# DBS03-AWS200 - Create an Aurora RDS Database
 
-# New post title here
+## Cloud Service Provider
+- Amazon Web Services
 
-## Introduction
+## Difficulty
+- Level 200 (Intermediate)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Project's Author(s)
+- [Nathan Cho](https://twitter.com/hatchcanon)
 
-## Prerequisite
+## Objectives
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### You need to complete the following:
+- Create a Security Group in your default VPC that allows traffic from `0.0.0.0/0` (public internet) on port `3306`
+- Use the "standard create" mode and choose "MySQL compatibility" with "regional" and "Dev/Test" mode
+- Specify your own password for the database
+- Choose the db.r5.large instance size
+- Choose the region's default VPC
+- Enable "Public Access" and add the above created Security Group
+- Create the database
+- Connect from your computer to the newly created database with a MySQL DBMS like [MySQL Workbench](https://dev.mysql.com/downloads/workbench/?os=src) or [Sequel Ace](https://github.com/Sequel-Ace/Sequel-Ace)
+- Create a test table in your database to verify everything is working correctly
+- Delete the database
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+### You need to answer the following:
+- What type of database is Aurora?
+- What is the minimum storage for Aurora?
+- What is Aurora Serverless and how does it differ from regular RDS DB instances?
+- How does Aurora's data distribution (redundancy) work, and what are the options for more redundancy?
+- How do Aurora's read & write replicas work?
+- What is the difference between a "reader" and a "writer" endpoint/instance?
+- What are the four types of Aurora Endpoints?
+- Does Aurora offer database encrpytion?
+- Why is it a bad idea to enable "Public Access"? Why did we enable public access this time?
 
-## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## References
+- [AWS Create a DB Instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateDBInstance.html)
+- [RDS FAQs](https://aws.amazon.com/rds/faqs/)
+- [An Introduction to Amazon Aurora](https://dzone.com/articles/an-introduction-of-amazon-aurora)
 
-## Try yourself
+## Costs
+- Amazon Aurora is not included in the free tier
+- An Aurora database running on the (cheapest) db.r5.large instance [will cost $0.29 per hour](https://aws.amazon.com/rds/aurora/pricing/)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Estimated time to complete
+- 60 minutes
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## Tips
+- To delete the database, make sure that you have disabled "deletion protection"
