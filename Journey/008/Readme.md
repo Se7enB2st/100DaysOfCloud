@@ -1,52 +1,44 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# DEV03-AWS100 —  Install & Configure AWS CLI then create an S3 Bucket
 
-# New post title here
+## Cloud Service Provider
+* Amazon Web Services (AWS)
 
-## Introduction
+## Difficulty
+Level 100 (Introductory)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Estimated Time
+* 30 - 40 minutes
+  
+## Project's Author(s)
+* [Ariela](https://twitter.com/ari_hacks)
 
-## Prerequisite
+## Objectives
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+###  You need to complete the following:
 
-## Use Case
+* Create an IAM user with a programmatic access type (and Administrator Access) if you do not have one already
+* Install AWS CLI 
+* Configure AWS credentials locally: `aws configure` 
+* Create an S3 bucket: `aws s3 mb s3://<unique-bucket-name>`
+* Check the bucket was created: `aws s3 ls`
+* Delete the bucket when you are done: `aws s3 rb s3://<unique-bucket-name>`
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+###  You need to answer the following: 
 
-## Cloud Research
+* How are permissions granted to IAM users?
+* What credentials are created when configuring AWS locally and where are they stored? 
+* What is the difference between `s3` and `s3api` Commands?
+  
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## References
 
-## Try yourself
+* [Create an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+* [Install AWS CLI on MacOS](https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html) or with Homebrew:  `brew install awscli` `aws --version`
+* [Install AWS CLI on Windows](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
+* [Install AWS CLI on Linux](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html)
+* [Configure AWS locally](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+* [Leveraging the s3 and s3api Commands](https://aws.amazon.com/blogs/developer/leveraging-the-s3-and-s3api-commands/)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## Tips
+  - IAM users with programmatic access are given an *access key id* and *secret access key*. After creating a user a *Download.csv* file is generated that contains these values. Download and save the file to access them for setting up AWS locally.
